@@ -1,5 +1,6 @@
 'use strict';
 
+const Question = require("./Question.js");
 
 class Icebreaker{
   question(){
@@ -7,6 +8,5 @@ class Icebreaker{
   }
 }
 
-const Question = require("model/Question.js");
 
 module.exports = Icebreaker;
