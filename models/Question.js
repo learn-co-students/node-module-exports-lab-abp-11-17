@@ -7,4 +7,4 @@ class Question {
   }
 }
 
-module.export = Question
+module.exports = Question
