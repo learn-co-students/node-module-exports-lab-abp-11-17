@@ -1,4 +1,5 @@
 'use strict';
+const Find = require('./Question.js')
 
 
 class Icebreaker{
@@ -6,4 +7,4 @@ class Icebreaker{
     Question.Find()
   }
 }
-
+module.exports = Find
