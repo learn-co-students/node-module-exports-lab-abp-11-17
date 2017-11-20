@@ -1,8 +1,8 @@
 'use strict';
 
-class Question {
+let Question=class  {
   static Find(){
-    
+
   }
 }
-
+module.exports = Question
