@@ -6,4 +6,5 @@ class Icebreaker{
     Question.Find()
   }
 }
-
+const Question = require(`./Question.js`)
+module.exports = Icebreaker
